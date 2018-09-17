@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfolio</title>
+   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,500,700" rel="stylesheet">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Welcome</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Kacper Mekarski</a></li>
+      </ul>
+    </div>
+</nav>
+<body>
+
+<%= yield %>
+
+</body>
+<footer class="container-fluid text-right hello-text">
+  <a href="#"><i class="fab fa-github glyphicon"></i></a>
+  <a href="#"><i class="fab fa-linkedin glyphicon"></i></a><br>
+  <p class="footer"><i class="fas fa-copyright"></i> 2018 Kacper Mekarski </p>
+</footer>
+    
+</html>

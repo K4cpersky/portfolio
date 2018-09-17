@@ -1,0 +1,18 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.highlightme { background-color:#a4a7a8;
+}
+
+.background-image {
+  background-image: url("https://cdn.allwallpaper.in/wallpapers/2560x1920/4707/landscapes-mountains-nature-rocks-2560x1920-wallpaper.jpg");
+  background-color: #cccccc;
+  height: 400px; background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hello-text {
+  color: white;
+}
