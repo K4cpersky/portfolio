@@ -1,15 +1,15 @@
-<div class="row">
-  <div class="thumbnail">
-    <div class="container col-md-6">
-      <% @portfolio.each do |p| %>
-        <a href="<%= p.link %>">
-          <%= image_tag p.image %>
-          <div class="caption">
-            <%= p.title %><br>
-            <%= p.description %><br>
-          </div>
-        </a>
-      <% end %>
+<div class="row container">
+  <% @portfolio.each do |p| %>
+<div class="col-md-10">
+     <%= link_to(p.link) do %>
+    <div class="thumbnail">
+      <img src="<%= p.image %>">
+      <div class="caption text-center">
+        <h3><%= p.title %></h3>
+        <p><%= p.description %></p>
+      </div>
     </div>
+     <% end %>
   </div>
+  <% end %>
 </div>

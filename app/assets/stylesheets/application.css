@@ -26,6 +26,7 @@
   font-style: normal;
   font-weight: 100;
 }
+
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
@@ -36,13 +37,30 @@
     color: black;
 }
 
+.glyphicon_contact {
+    font-size: 90px;
+    color: black;
+    padding: 30px;
+}
+
 body { 
   background: url(https://i.imgur.com/UtQK25X.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  font-family: 'Roboto';
 }
 .container {
   margin: 5%;
+}
+
+.background-image {
+  background-image: url("https://cdn.allwallpaper.in/wallpapers/2560x1920/4707/landscapes-mountains-nature-rocks-2560x1920-wallpaper.jpg");
+  background-color: #cccccc;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
